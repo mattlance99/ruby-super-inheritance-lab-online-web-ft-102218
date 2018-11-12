@@ -5,15 +5,10 @@ class ChattyStudent < Student
   end
   
   def raise_hand
-    super
-    super
-    super
-    super
-    super
-    super
-    super
-    super
-    super
-    super
+    x = 1
+    while x < 11
+      puts super
+      x += 1
+    end
   end
 end
